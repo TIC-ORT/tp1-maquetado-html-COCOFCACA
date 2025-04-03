@@ -5,6 +5,7 @@
     height: 15vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .cuadrado-sup-izq {
@@ -12,4 +13,17 @@
     width: 17vw;
     background-color: rgb(214, 172, 31);
     margin-left: 2vw;
+}
+
+.contenedor-cuadrados-dch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cuadrado-sup-dch {
+    margin-right: 3vw;
+    height: 3vh;
+    width: 12vw;
+    background-color: white;
 }
