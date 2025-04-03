@@ -22,8 +22,15 @@
 }
 
 .cuadrado-sup-dch {
-    margin-right: 3vw;
+    margin-right: 2vw;
     height: 3vh;
     width: 12vw;
     background-color: white;
+}
+
+.cuadrado-pequeño {
+    height: 3vh;
+    width: 6vw;
+    background-color: rgb(214, 172, 31);
+    margin-right: 2vw;
 }
