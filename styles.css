@@ -102,30 +102,47 @@
 .linea-blanca.corta {
     width: 60%;
 }
+.columna-derecha {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fila-texto-cuadro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.bloque-texto {
+    width: 60%;
+}
 
 .linea-titulo-der {
     height: 10px;
-    width: 40%;
+    width: 60%;
     background-color: #5c5f68;
     margin-bottom: 10px;
 }
 
 .linea-texto {
-    height: 8px;
-    width: 90%;
+    height: 12px;
+    width: 200px;
     background-color: #d3d3d3;
     margin-bottom: 6px;
 }
 
 .cuadro-color-der {
-    width: 50%;
+    width: 170px;
     height: 80px;
     background-color: #f99d7c; /* salmón */
-    margin: 20px 0;
+    margin-right: 50px;
 }
 
 .barra-gris-oscura {
-    width: 100%;
-    height: 20px;
+    width: 405px;
+    height: 40px;
     background-color: #5c5f68;
 }
