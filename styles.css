@@ -34,3 +34,33 @@
     background-color: rgb(214, 172, 31);
     margin-right: 2vw;
 }
+
+.barra-navegacion {
+    background-color: #d3d3d3; /* Gris claro */
+    margin-left: 15vw;
+    margin-right: 15vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-contenedor {
+    display: flex;
+    gap: 10px; /* Separación entre botones */
+}
+
+.nav-boton {
+    width: 80px;
+    height: 8px;
+    background-color: #5c5f68; /* Gris oscuro */
+    margin-top: 19px; /* Lo baja un poco */
+    margin-left: 1.5vw;
+}
+
+.nav-boton.activo {
+    height: 50px;
+    width: 110px;
+    background-color: #373b42; /* Más oscuro */
+    margin-top: 0; /* Alineado arriba */
+    margin-left: 2vw;
+}
